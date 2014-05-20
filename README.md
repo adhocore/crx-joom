@@ -30,3 +30,11 @@
 ## shit
 
 - just visit [chrome://extensions/](chrome://extensions/) and remove it
+
+
+## changelog 
+
+### 2014-05-20
+
+- added the configurable option for current page and all pages
+	- (known issue: the live zoom breaks rarely during the configuration)

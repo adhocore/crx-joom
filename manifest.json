@@ -1,12 +1,20 @@
 {
-  "manifest_version": 2,
-  "name": "joom",
-  "description": "zoom the webpage automatically.",
-  "version": "1.0",
-  "content_scripts": [{
-      "all_frames": true,
-      "js": ["zoom.js"],
-      "matches": [ "http://*/*", "https://*/*" ],
-      "run_at": "document_end"
-   }]
+    "manifest_version": 2,
+    "name": "joom",
+    "description": "zoom the webpage automatically.",
+    "version": "1.0",
+    "content_scripts": [{
+        "all_frames": true,
+        "js": ["zoom.js"],
+        "matches": ["http://*/*", "https://*/*"],
+        "run_at": "document_end"
+    }],
+    "permissions": ["tabs", "*://*/*"],
+    "browser_action": {
+        "default_icon": "zoom.png",
+        "default_popup": "zoom.html"
+    },
+    "background": {
+        "page": "zoom-bkg.html"
+    }
 }

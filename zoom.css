@@ -1,0 +1,20 @@
+body {
+    width:300px;
+    height:180px;
+    font-family: Helvetica, arial, freesans, clean, sans-serif;
+}
+
+p label {
+    float: left;
+    width: 90px;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+p label.right {
+    font-style: italic;
+    font-size: 13px;
+    display: inline-block;
+    width: 65px;
+    float: right;
+}

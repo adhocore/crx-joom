@@ -1,0 +1,30 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="zoom.css" />
+</head>
+<body>
+    <form method="post" id="joom-form">
+        <h4>Joom Config</h4>
+        <p>
+            <label>Current Page</label>
+            <input id="joom-it" type="range" min="80" max="150" step="5" />
+            <label class="right" id="joom-it-stat">N/A</label>
+        </p>
+        <p>
+            <label>All Pages</label>
+            <input id="joom-all" type="range" min="80" max="150" step="5" />
+            <label class="right" id="joom-all-stat">N/A</label>
+        </p>
+        <p>
+            <label>&nbsp;</label>
+            <input id="joom-save" type="button" value="Save" />
+        </p>
+        <p style="display:none;">
+            <a id="joom-host">&nbsp;</a>
+        </p>
+        <hr />
+        <p>&copy; <a href="https://github.com/adhocore" target="_blank">adhocore</a> | Jitendra Adhikari</p>
+    </form>
+    <script src="zoom-pop.js"></script>
+</body>
+</html>
